@@ -5,9 +5,14 @@
 }
 
 body{
-    background-color: rgb(126, 27, 226);
+    background-color: rgb(247, 248, 249);
 }
 
+ul,
+ol,
+menu{
+    list-style: none;
+}
 
 
 .container{
@@ -18,14 +23,20 @@ body{
 .main-header{
     background-color: white;
     height: 75px;
+    margin-bottom: 25px;
 }
 
 .buttons{
-    margin-top: 25px;
-    background-color: white;
     height: 50px;
     border-radius: 2px;
+    width: 700px;
+    margin: 0 auto;
 }
+
+.nav{
+    background-color: white;
+}
+
 
 .blue-button{
     color: white;
@@ -48,4 +59,51 @@ body{
     background-color: white;
     height: 400px;
     margin-top: 1px;
+}
+
+.editorial{
+    background-color: cornflowerblue;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+}
+
+.q1{
+    background-color: violet;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+}
+
+.recruiting{
+    background-color: lightgreen;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+}
+
+.mobile{
+    background-color: orange;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+}
+
+.website{
+    background-color: fuchsia;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+}
+
+.sales{
+    background-color: orangered;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+}
+
+.tasks{
+    width: 700px;
+    margin: 0 auto;
 }
