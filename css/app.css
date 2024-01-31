@@ -28,6 +28,7 @@ menu{
 
 .banner{
     height: 75px;
+    vertical-align: middle;
 }
 
 .logo{
@@ -36,7 +37,7 @@ menu{
 }
 
 .banner-title{
-    line-height: normal;
+    font-size: 32px;
     padding-left: 10px;
     display: inline-block;
     font-weight: 900;
@@ -141,10 +142,5 @@ li{
 }
 
 .arrow{
-    font-size: 18px;
-}
-
-.cros{
- border: 200px;
- border-radius: 20px;
+    font-size: 18px
 }
